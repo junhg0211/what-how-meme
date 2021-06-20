@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 from moviepy.editor import *
 
 
-IMAGE_PATH = join(dirname(__file__), 'output.png')
+IMAGE_PATH = 'output.png'
 AUDIO_PATH = join(dirname(__file__), 'what_how.mp3')
 
 parser = argparse.ArgumentParser(description='Encodes the mEme.')
